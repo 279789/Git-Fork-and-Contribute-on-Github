@@ -7,7 +7,7 @@
 }
 --->
 
-# Git: Fork and Contribute on Github
+# Git: Fork and Contribute on Github Phil Reinartz
 
 ## 1) Introduction
 When developers want to share their projects, they use platforms designed specifically for collaboration — similar to social networks, but specialized for code. **GitHub** is one of the most prominent examples: it hosts and manages Git repositories, while also providing tools for version control, collaboration, and community building. GitHub adds layers of functionality on top of Git, such as issue tracking, wikis, project boards, and — most importantly — **pull requests**.
