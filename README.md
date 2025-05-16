@@ -110,22 +110,25 @@ git merge upstream/main
 ## 3) Questions
 
 1. **What is the difference between a GitHub fork and a local Git clone?**  
-   Hint: Think about ownership, visibility, and where the copy lives.
+   Hint: Think about ownership, visibility, and where the copy lives. local git clone is a clone of the "real Repo", if you would push it back, the things get changed in the real repo. A fork is a Copy of a Repo, it's needed, when the author only gives you reeding rights.
 
 2. **Why should you create a new branch before editing, even in your own fork?**  
-   How does this help keep your work clean and modular?
+   How does this help keep your work clean and modular? A branch is always nice, because it helps you to keep track of changes. If you want to try something, it makes often sens to creat a new branch instead of commiting on the master, because your old data is still functional till your branch is finaly finished. Once your branch is perfect, you could merge it with the master. Since you checked everything before merching, the results are perfect from beginning.
 
 3. **What happens when you push changes to your fork, but the original repository has changed in the meantime?**  
-   How can you make sure your pull request will not cause merge conflicts?
+   How can you make sure your pull request will not cause merge conflicts? First sync with og file, than push
 
 4. **How can you update your fork to reflect changes from the upstream repository?**  
-   Try to describe the purpose of `git remote add upstream` and `git fetch`.
+   Try to describe the purpose of `git remote add upstream` and `git fetch`. First command does download updates from your file second does create a new branch with the new changes fromn the repo
 
 5. **Why do open-source maintainers prefer contributions via pull requests rather than giving direct write access?**  
-   Think in terms of trust, control, and quality assurance.
+   Think in terms of trust, control, and quality assurance. Because it adds another savety barrier. For example, if someone could merge directly, but he merges shit, the shit gets merged into the og repo. But if he has to do an pull request, you could check it first before merging.
 
 6. **What information should a good pull request contain?**  
    Consider both the technical and the social aspects (e.g., commit message, explanation, tone).
+   - Provide a clear title (e.g. "Improved instructions in README").
+     - In the description, briefly explain what you changed and why.
+     - Be polite and concise.
 
 
 ## 4) Advice
